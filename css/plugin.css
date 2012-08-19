@@ -1,0 +1,31 @@
+/*
+Автор	:	ПафНутиЙ
+*/
+
+.cn-miniatures {
+	margin: 0 0 0 -30px;
+	padding: 0;
+	list-style: none;
+	}
+	.cn-miniatures li {
+		margin: 0 0 28px 28px;
+		float: left;
+		border: solid 1px #fff;		
+		-webkit-box-shadow:  0px 4px 8px -1px rgba(000, 000, 000, 0.4);        
+		box-shadow:  0px 4px 8px -1px rgba(000, 000, 000, 0.4);        
+		}
+		
+#preview {
+	position:absolute;
+	border:1px solid #fafafa;
+	background:#333 url(images/loading.gif) no-repeat 50% 50%;
+	padding:2px;
+	display:none;
+	min-height: 150px;
+	min-height: 200px;
+	-webkit-box-shadow: 0px 0px 15px 0px rgba(000, 000, 000, 0.4);
+	box-shadow: 0px 0px 15px 0px rgba(000, 000, 000, 0.4);
+	}
+	#preview img {
+		max-width: 500px;
+		}

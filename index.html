@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="ru"> <![endif]-->
+<!--[if IE 7]><html class="no-js lt-ie9 lt-ie8" lang="ru"> <![endif]-->
+<!--[if IE 8]><html class="no-js lt-ie9" lang="ru"> <![endif]-->
+<!--[if gt IE 8]><!--><html class="no-js" lang="ru"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+
+	<title>Всплывающие картинки на jquery</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width">
+	
+	<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/plugin.css">
+
+</head>
+<body>
+	<!--[if lt IE 8]><p class=chromeframe>Ваш браузер <em>устарел!</em> <a href="http://windows.microsoft.com/ru-RU/internet-explorer/downloads/ie" taraget="_blank">Обновите его до актуальной версии</a> или <a href="http://www.updateyourbrowser.ru/" taraget="_blank">Установите более современный</a> и главное, более безопасный браузер.</p><![endif]-->
+	<header role="banner">
+		<h1>Неплохой эффект для всплывающих картинок в галерее или просто для списка миниатюр</h1>	
+		<p>Всплывалка сама определяет с какой стороны от курсора всплывать :-)</p>	
+	</header>
+	<section role="main">
+		<article>
+			<ul class="cn-miniatures clearfix">
+				<li><a data-image="images/1.jpg" href="#" title="title"><img src="images/1.png" width="200" height="160" alt="1"></a></li>
+				<li><a data-image="images/2.jpg" href="#" title="title"><img src="images/2.png" width="200" height="160" alt="1"></a></li>
+				<li><a data-image="images/3.jpg" href="#" title="title"><img src="images/3.png" width="200" height="160" alt="1"></a></li>
+				<li><a data-image="images/4.jpg" href="#" title="title"><img src="images/4.png" width="200" height="160" alt="1"></a></li>
+				<li><a data-image="images/5.jpg" href="#" title="title"><img src="images/5.png" width="200" height="160" alt="1"></a></li>
+				<li><a data-image="images/6.jpg" href="#" title="title"><img src="images/6.png" width="200" height="160" alt="1"></a></li>
+				<li><a data-image="images/7.jpg" href="#" title="title"><img src="images/7.png" width="200" height="160" alt="1"></a></li>
+				<li><a data-image="images/8.jpg" href="#" title="title"><img src="images/8.png" width="200" height="160" alt="1"></a></li>
+				<li><a data-image="images/9.jpg" href="#" title="title"><img src="images/9.png" width="200" height="160" alt="1"></a></li>
+			</ul>
+		</article>
+	</section>  
+	<section>
+		<p>Стили, относящиеся к делу находятся в файле <a href="css/plugin.css" title="Посмотреть содержимое">css/plugin.css</a></p>
+		<p>Плагин находится в файле <a href="js/smart-images.js" title="Посмотреть содержимое smart-images.js">js/smart-images.js</a>, его инициализация находятся в файле <a href="js/scripts.js" title="Посмотреть содержимое scripts.js">js/scripts.js</a>.</p>
+		<p>Минимизированная версия (~800 байт) находится в файле <a href="js/smart-images.min.js" title="Посмотреть содержимое smart-images.min.js">js/smart-images.min.js</a></p>
+	</section>
+	<div class="html5logo">
+		<a href="http://www.w3.org/html/logo/" target="_blank"><img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-semantics.png" width="165" height="64" alt="HTML5 Powered with CSS3 / Styling, and Semantics" title="HTML5 Powered with CSS3 / Styling, and Semantics"></a>
+	</div>
+	<!-- begin scripts -->
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.1.min.js"><\/script>')</script>	
+	<script src="js/smart-images.min.js"></script>
+	<script src="js/scripts.js"></script>
+	<!-- end scripts -->
+</body>
+</html>
