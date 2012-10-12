@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Smartimages : SmartImages - Простой плагин для jQuery для показа всплывающих картинок" />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Smartimages</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/pafnuty/SmartImages">View on GitHub</a>
+
+          <h1 id="project_title">Smartimages</h1>
+          <h2 id="project_tagline">SmartImages - Простой плагин для jQuery для показа всплывающих картинок</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/pafnuty/SmartImages/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/pafnuty/SmartImages/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>SmartImages</h1>
+
+<p>SmartImages - Простой плагин для jQuery для показа всплывающих картинок, работает на основе html5 атрибута data-*, что добавляет гибкости и удобства данному скрипту. Попробуйте и всё станет ясно.</p>
+
+<p>Использование:</p>
+
+<pre><code>HTML
+
+&lt;div class="thumbs"&gt;
+    &lt;img data-image="10.png" src="1.png" alt="1" /&gt;
+    &lt;img data-image="20.png" src="2.png" alt="2" /&gt;
+    &lt;img data-image="30.png" src="3.png" alt="3" /&gt;
+    &lt;img data-image="40.png" src="4.png" alt="4" /&gt;
+&lt;/div&gt;
+</code></pre>
+
+<p>Инициализация:</p>
+
+<pre><code>jQuery(function($) {
+    $(".thumbs img").smartImages();
+}); 
+</code></pre>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Smartimages maintained by <a href="https://github.com/pafnuty">pafnuty</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
